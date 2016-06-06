@@ -1,0 +1,22 @@
+#+TITLE: Git Guide
+#+AUTHOR: Samuel Wilson
+#+EMAIL: samWson@users.noreply.github.com
+#+DATE: <2016-06-06 Mon>
+
+* Configuration
+
+** List configuration settings
+<$ git config -l>
+
+** Set your configuration for every repository on your computer
+<$ git config --global user.name "<your-name-here>" >
+<$ git config --global user.email "<user-email@example.com>" >
+
+* Workflow
+
+** Commit changes
+<$ git commit -m "<commit-message-here>" >
+
+** Push changes back to GitHub repository
+
+<$ git push <REMOTENAME> <BRANCHNAME> >
