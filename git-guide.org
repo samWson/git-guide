@@ -14,6 +14,13 @@
 
 * Workflow
 
+** Branches
+<$ git branch>
+- List all branches
+
+<$ git checkout <BRANCHNAME>
+- Change branches to BRANCHNAME
+
 ** Commit changes
 <$ git commit -m "<commit-message-here>" >
 
