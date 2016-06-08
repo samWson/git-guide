@@ -6,24 +6,35 @@
 * Configuration
 
 ** List configuration settings
-<$ git config -l>
+#+BEGIN_SRC sh
+$ git config -l
+#+END_SRC
 
 ** Set your configuration for every repository on your computer
-<$ git config --global user.name "<your-name-here>" >
-<$ git config --global user.email "<user-email@example.com>" >
+#+BEGIN_SRC sh
+$ git config --global user.name "<your-name-here>"
+$ git config --global user.email "<user-email@example.com>"
+#+END_SRC
 
 * Workflow
 
 ** Branches
-<$ git branch>
+#+BEGIN_SRC sh
+$ git branch
+#+END_SRC
 - List all branches
 
-<$ git checkout <BRANCHNAME>
+#+BEGIN_SRC sh
+$ git checkout <BRANCHNAME>
+#+END_SRC
 - Change branches to BRANCHNAME
 
 ** Commit changes
-<$ git commit -m "<commit-message-here>" >
+#+BEGIN_SRC sh
+$ git commit -m "<commit-message-here>"
+#+END_SRC
 
 ** Push changes back to GitHub repository
-
-<$ git push <REMOTENAME> <BRANCHNAME> >
+#+BEGIN_SRC sh
+$ git push <REMOTENAME> <BRANCHNAME>
+#+END_SRC
