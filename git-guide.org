@@ -18,6 +18,17 @@ $ git config --global user.email "<user-email@example.com>"
 
 * Workflow
 
+** Clone a repository
+- Copy a repositorys files to your local repository
+#+BEIGIN_SRC sh
+$ git clone <REPOSITORY-URL>
+#+END_SRC
+
+- Copy a specific branch of a repository
+#+BEGIN_SRC sh
+$ git clone --branch=<BRANCHNAME> <BRANCH-URL>
+#+END_SRC
+
 ** Branches
 #+BEGIN_SRC sh
 $ git branch
